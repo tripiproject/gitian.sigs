@@ -7,7 +7,7 @@
     f9a8cdb38b9c309326764ebc937cba1523a3a751a7ab05df3ecc99d18ae466c9  osslsigncode-1.7.1.tar.gz
     a8c4e9cafba922f89de0df1f2152e7be286aba73f78505169bc351a7938dd911  osslsigncode-Backports-to-1.7.1.patch
     f98b6228589f587d964c7f8b1ec947b3f7baa0d07850f1929abb2cf186ffb86d  tripi-win-unsigned.tar.gz
-    git:269d747fe9f5ea8e0cee887e638bc7f498780b63 signature
+    git:f06ed3313ae8196620959ae0ba553ca9d0f66b56 signature
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
