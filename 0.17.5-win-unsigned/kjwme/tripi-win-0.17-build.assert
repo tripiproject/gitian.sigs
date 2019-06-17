@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    5ace64bf12ab0762fab438f241f072918ec8d6fec1f821275a68d36d844c07d1  src/tripi-0.17.5.tar.gz
-    1e3c7f4451dd5370eeef5711253e927522cb187a3501da23778a39f69902dcbb  tripi-0.17.5-win-unsigned.tar.gz
-    2f1d0b64fb7b029de98bfde82e169319c687fa98ad1f307391f0770031b2c276  tripi-0.17.5-win32-debug.zip
-    35acc8490a84c7ed9f56833b7d9167e6fb7a83ce210ee678f6448d5b7b8e69f6  tripi-0.17.5-win32-setup-unsigned.exe
-    9fe5e98239fd6a451f72563418cd62782979ee4376fa363887b958ed9fe41d70  tripi-0.17.5-win32.zip
-    f896126eb02057f624b003a5861a5bf0b1e250c1b082740860a9b05e6f64aaf2  tripi-0.17.5-win64-debug.zip
-    56d14d5beac5040f2a93295a6835f866741d738f5f0f0f6bf5298f1e1965d382  tripi-0.17.5-win64-setup-unsigned.exe
-    a142aff5cef3f3f5a99eb9e4cb79aa65221ca23a56f74c8441cd810ec2720554  tripi-0.17.5-win64.zip
+    facd7448006613c196249551f0f182d883d5bab26af7f241f3518996b8f1cf1b  src/tripi-0.17.5.tar.gz
+    df4197855156e5db3be31e2f848630bd7c888be84ea86760e0be1f4aa0806e4b  tripi-0.17.5-win-unsigned.tar.gz
+    ee71327c542abaf6b23b4cdf7ffc6419ba9769700a887ce582432fe1dec162ff  tripi-0.17.5-win32-debug.zip
+    bf81522b8e40f4f79f0ccbc5f5dba8283a92f75733d0cde768d1ecfb1eb57f25  tripi-0.17.5-win32-setup-unsigned.exe
+    a2f31a0062f6386f11719081e82f89dfef1fe9e2b930d01347a4c3790ea69a3b  tripi-0.17.5-win32.zip
+    afe1584a14579a09df6bb4e4217d3345c060708905e48368e48a78694f2a01c0  tripi-0.17.5-win64-debug.zip
+    8b36759d4f7f3a9dfcbe0d1ea639283f2c9e5359ec9d6363cb49eff3256d6c79  tripi-0.17.5-win64-setup-unsigned.exe
+    0a5c52dfb5e342a3e92a3f5fb7b621e46adbaff08dd6695d7e2f29fe0c5fd745  tripi-0.17.5-win64.zip
 - in_manifest: |-
     72f638fe60809aac9d758b716b00a26dd2fc16048a07f65b0bf5f700b79e8e11  tripi-win-0.17-desc.yml
-    git:5448f0a3929c84fbdfc04875b71d26af1db2852e tripigit:25783463db5078c2bf888dd65df53f0d6f008b67 cpp-eth-tripi
+    git:75dc9a7f93687b1c465215cbce05526c0e582ba9 tripigit:25783463db5078c2bf888dd65df53f0d6f008b67 cpp-eth-tripi
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
