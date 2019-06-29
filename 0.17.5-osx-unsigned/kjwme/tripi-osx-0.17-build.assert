@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    653b1bc74b489a41e237014ff473874079abeab8bed4d45974c2274297d5a299  src/tripi-0.17.5.tar.gz
-    7f321fe59b6c18f09620504f9398193bbc359edfcc7e8c406c16f73a1dcc5b56  tripi-0.17.5-osx-unsigned.dmg
-    cebf315d04994bdb777f9acb673db2c528a20d10940220316ddaf3f8c8518c9f  tripi-0.17.5-osx-unsigned.tar.gz
-    f74786b0e572c6312e9c5f296d4e68bc17cd3d7c42ee99d981c663790575aa61  tripi-0.17.5-osx64.tar.gz
+    93e593b73d325b4abbbf5337734e7f9f61b4ecff5c534aaaaeb8ea574f171422  src/tripi-0.17.5.tar.gz
+    1b0cdc10073e94361500e2a86c205e44082450a4dc0644ccdb73737c49ee68f6  tripi-0.17.5-osx-unsigned.dmg
+    eec5e0a32ec0b4ded832adab34fa6c3892413e88310f5e7368832f42a8e29356  tripi-0.17.5-osx-unsigned.tar.gz
+    04d9a430561732627ee997aed27652b0ce202de75441cd0aae73dfa59a78ab94  tripi-0.17.5-osx64.tar.gz
 - in_manifest: |-
     a22c0b6f0c94d17523f57d6b7a9f94d0d5c97d61d9794b27b33e731fe3bdfc1e  tripi-osx-0.17-desc.yml
     b6cc75d7116f7709a9f81f6a970707ffe9dbad621fc834b52c25791f88832a07  MacOSX10.11.sdk.tar.gz
-    git:0b1bc3099c6e6723d6e61ecd7cce4f6825e642ae tripigit:25783463db5078c2bf888dd65df53f0d6f008b67 cpp-eth-tripi
+    git:54101e2e978958a6ac5bf82f15c08b02b4d91098 tripigit:25783463db5078c2bf888dd65df53f0d6f008b67 cpp-eth-tripi
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
