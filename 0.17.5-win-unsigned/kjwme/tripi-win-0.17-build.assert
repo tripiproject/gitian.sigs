@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    0e407a4b89ca08bde5db84d6a22aca38c87e9c2caa2f2c471d63927787a50163  src/tripi-0.17.5.tar.gz
-    6774979e32d74c4711a907b2bd726a4523341fe5566e08e1bd7a72c8b3c1c68a  tripi-0.17.5-win-unsigned.tar.gz
-    28a119edbd28eb3e426e86f317a991dc4419e5ce5a10d218d93526c3927a843b  tripi-0.17.5-win32-debug.zip
-    0ceb4fadb3fe7e1199f4b2a9829b82de78d260e56329be68fe73701323394362  tripi-0.17.5-win32-setup-unsigned.exe
-    d761e6d64a842959cbeceb06bde8cae791bedda3d665520378832e3395bab417  tripi-0.17.5-win32.zip
-    9eb499066aeaf187c25939167067cab77c8f5b6d48773e65338827af06b5e8c1  tripi-0.17.5-win64-debug.zip
-    8a3c643fc2743386083d48f34b12c7cec5ef834a4844c9c7a6c38a48014ab720  tripi-0.17.5-win64-setup-unsigned.exe
-    ba146e77dc51cadaccedc9c0f691cf708765e9706eaf4df55d1511d87a55052e  tripi-0.17.5-win64.zip
+    902b47458fd11e87cdfb38648a540de30bd344a1be53f448f6931d4486c5de3a  src/tripi-0.17.5.tar.gz
+    63a2a8deb034957a412622283a29eeee17573aaaabe4918bb1d3733fc802d271  tripi-0.17.5-win-unsigned.tar.gz
+    bc53321ce6116524b48e5e0c39fabc73897d5e4c56dc2cca2d73722c9cbe86ed  tripi-0.17.5-win32-debug.zip
+    97ab9df479583bae3d7e1e22e86a476d6700d174704924d5dbab006f31c88388  tripi-0.17.5-win32-setup-unsigned.exe
+    cf3a0549b0008b6cf98177d41930db8fd1bd5a45d6515ba8e28823a63f4b5679  tripi-0.17.5-win32.zip
+    67a935a46fc536fa6047a58a5ff81c8bb3ccb76c58f288c43b100b7160d13d93  tripi-0.17.5-win64-debug.zip
+    530970d482dadf440afde2a743b0a633d15d6d08aef4688cdce438aadd380513  tripi-0.17.5-win64-setup-unsigned.exe
+    e14e6dfc76f602248b228f93716ddc9a3ed31d8610c5c4699a1983d3dec9ef7c  tripi-0.17.5-win64.zip
 - in_manifest: |-
     72f638fe60809aac9d758b716b00a26dd2fc16048a07f65b0bf5f700b79e8e11  tripi-win-0.17-desc.yml
-    git:f1804dadb9458375b18282e69958833f85504bc1 tripigit:25783463db5078c2bf888dd65df53f0d6f008b67 cpp-eth-tripi
+    git:59df340345f14023e8c35be4826d762674012674 tripigit:25783463db5078c2bf888dd65df53f0d6f008b67 cpp-eth-tripi
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -24,7 +24,7 @@
       e0ede96ea0974a44ff86aea647167cd9cbcef4b985ee9f7e59be4bea64927581  base-files_10.1ubuntu2.4_amd64.deb
       81d5fa6a8c31b739299552338ee1d1a7efe4b302702d157f3b67389bc1a948aa  base-files_10.1ubuntu2_amd64.deb
       6910f5a7f6fa9ba8eb98e3925abba9709bd28cf6f368955e536119ad39e9ad94  base-passwd_3.5.44_amd64.deb
-      6b452d96664b0d1d4271059e56cfb5b92815ad97a9d5c9d329272f4a7dddf5ef  bash_4.4.18-2ubuntu1.1_amd64.deb
+      4f95ed6e11435fccaa9731eaeb7688fed8cc1fd8a25d44640e2f7a25f871ae08  bash_4.4.18-2ubuntu1.2_amd64.deb
       5895e980d1fc874906d27823ab31eeb65cfe1d059936b9d6d304bfee02c8995c  bash_4.4.18-2ubuntu1_amd64.deb
       925d34fa9d027e9fffba78dfa6518304897dbf49a4d2f3d721b6539483582b69  binutils-common_2.30-15ubuntu1_amd64.deb
       613cd8e74f59ea6a4153fe14f7e1e1579edfbf78f5b5dc9396cb3b3c87ab2697  binutils-common_2.30-21ubuntu1~18.04.2_amd64.deb
@@ -68,6 +68,7 @@
       4a2f0f62cb9c7bc00d535e85f5629eb9f513e9c6161474a95445db1c446b5dc1  diffutils_1%3a3.6-1_amd64.deb
       50dff75c3281b0b7bd58332ca4fc1688588f904f0238d4a3d66c954f160a960f  distro-info-data_0.37_all.deb
       277be9837a88dcdd08efc7ae261554bf46824c23e9af85cef0c21cde41834114  distro-info-data_0.37ubuntu0.5_all.deb
+      8f294be857f3e78f5f17d89e1f244a50e8dfbdd8ffe79aa8b269d80a258d492e  dmsetup_2%3a1.02.145-4.1ubuntu3.18.04.1_amd64.deb
       9d30ebcba80d27fc8b94aae4f71a8b32623897f3a31da9c0fcf08e3da561ebf3  dmsetup_2%3a1.02.145-4.1ubuntu3_amd64.deb
       8fd022350824ff41edf0ec0b5c2fbf333da1ed6eca8a625db8a044762956351a  dnsmasq-base_2.79-1_amd64.deb
       11a5806afe247bb8d756e3d43245d89b213df79653a43a19189bed626bb946c5  dpkg-dev_1.19.0.5ubuntu2.1_all.deb
@@ -189,6 +190,7 @@
       5f3333496edb1cfc2d9236cc7a2035ce08fed99c40d4a121b120077029c2781e  libdbus-1-3_1.12.2-1ubuntu1.1_amd64.deb
       a87d9e4af516cfc6ce04957d291a36347863939b4a61cbe4f16f1235d7b31b72  libdbus-1-3_1.12.2-1ubuntu1_amd64.deb
       7a3e3979966479aa108ff5ef991d00a080a37ea79822276c2ec1b6d5bf522333  libdebconfclient0_0.213ubuntu1_amd64.deb
+      ae6c5fe59de49a53aef35bb307e1e385a9e003f226ca16c280c430b79e5fa198  libdevmapper1.02.1_2%3a1.02.145-4.1ubuntu3.18.04.1_amd64.deb
       6ba9c0edd44421480af99ca8115d08197a541d9ac5e0c031cc650b5960d6bbd8  libdevmapper1.02.1_2%3a1.02.145-4.1ubuntu3_amd64.deb
       93cc71d5bc239e6cb07b27b9a61326a09742483e34efc46d164ff58598da9be0  libdns-export1100_1%3a9.11.3+dfsg-1ubuntu1.8_amd64.deb
       0b0ff4da4f97526452e443e3eba779116813a7135a0face6713dd4536fae0892  libdns-export1100_1%3a9.11.3+dfsg-1ubuntu1_amd64.deb
@@ -218,9 +220,9 @@
       d12d02c0d237e2ff766c02e31f4779a455c81d9f7a8ebbc7a083cc2d77d5cf13  libgdbm5_1.14.1-6_amd64.deb
       5ebe2f31f36042bec9c390e8e890b24a3a1f21ec1b2f70eabee62c3bf63fd511  libgirepository-1.0-1_1.56.1-1_amd64.deb
       eb1df17e88a067c9fb4fc61c72decb9120ce11cb61b6ebbacd837cf24d7293e4  libglib2.0-0_2.56.1-2ubuntu1_amd64.deb
-      b8cc78c8e9f349bad881153ac235d8d65518ebaa1982dc52531551ffee077094  libglib2.0-0_2.56.4-0ubuntu0.18.04.3_amd64.deb
+      a3924ee2d69c41599ee4e14c1ae9421ee5c7a736238f7308a0cc22633c0d1538  libglib2.0-0_2.56.4-0ubuntu0.18.04.4_amd64.deb
       95c46d4540b666679715696d597d026c454455251cc4fa294dfbfb8071848b15  libglib2.0-data_2.56.1-2ubuntu1_all.deb
-      e89948a8302167cff070dd0cf1b77d86f4462c817d12aa3576874483fe83582e  libglib2.0-data_2.56.4-0ubuntu0.18.04.3_all.deb
+      90e542d44bc40377a898976f0f822bcc283d041a8f6306c938d3bfa345811261  libglib2.0-data_2.56.4-0ubuntu0.18.04.4_all.deb
       5b4ea4fdbc5cf9b2eb9ce7b05de58a36b507982d9fa8c84765d41279e4645be1  libgmp10_2%3a6.1.2+dfsg-2_amd64.deb
       db0373ddb455e75fcf7b157fdf5d54db751fe9d59ce63e196c01360f0d21cbb9  libgnutls30_3.5.18-1ubuntu1.1_amd64.deb
       bed4a513a5dc7ae82b0be7191a874f1ad6778a7fab14c5a27c0e62b367584452  libgnutls30_3.5.18-1ubuntu1_amd64.deb

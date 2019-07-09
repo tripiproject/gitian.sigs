@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    0e407a4b89ca08bde5db84d6a22aca38c87e9c2caa2f2c471d63927787a50163  src/tripi-0.17.5.tar.gz
-    7f1954ed2cc78b80e1f614c30eb8ba9bdbc8e7f2040eb0748dbb66479a87edff  tripi-0.17.5-aarch64-linux-gnu-debug.tar.gz
-    b6ce3dddb852bde66a48f5cc00d17e29ba0bec854e4589f8ba34370f71b521b8  tripi-0.17.5-aarch64-linux-gnu.tar.gz
-    901bf85d45f2ab011a8975073aab5e77882f732bd5ddc9e99a6bd89da30d5b59  tripi-0.17.5-arm-linux-gnueabihf-debug.tar.gz
-    e2162214c8a0929d4b8ea09131419f213af77e7059e4f24ff8308f27917d761f  tripi-0.17.5-arm-linux-gnueabihf.tar.gz
-    9055377ed4359f3caa960754e364429f6b6d1aee76ab45329e51cd10b68dc5c1  tripi-0.17.5-i686-pc-linux-gnu-debug.tar.gz
-    4fd752fce2af6f53038f31e2a8f5700e09cf76a6cdcbef76669503bb513ebef2  tripi-0.17.5-i686-pc-linux-gnu.tar.gz
-    ae33410147da5a503861443916dc508233368fb2aa59a12adf90cafb8cdf3c3f  tripi-0.17.5-x86_64-linux-gnu-debug.tar.gz
-    6d9d835333cf25a4f28e7dc31bc8f9cfae31f52940182bbdb2f1d43b2649f0e4  tripi-0.17.5-x86_64-linux-gnu.tar.gz
+    902b47458fd11e87cdfb38648a540de30bd344a1be53f448f6931d4486c5de3a  src/tripi-0.17.5.tar.gz
+    744a6f9137be0fec722e7183a8722bb9005cb04936daff7b7c3d0d05ede85479  tripi-0.17.5-aarch64-linux-gnu-debug.tar.gz
+    4bef9a2200db0cc966f8f15f048adf31e8eae460d4eaffee60762bb06b61d607  tripi-0.17.5-aarch64-linux-gnu.tar.gz
+    41a0d187b4fc634bf66238f3ae9a7c6fecc3d7d1a16dba7a3facb674465c4de0  tripi-0.17.5-arm-linux-gnueabihf-debug.tar.gz
+    eb069a4822d0121b550e05f733df06b1bfa0080a06d5fa406fbf9691fd1ec4f5  tripi-0.17.5-arm-linux-gnueabihf.tar.gz
+    d0c90824bacff006e3a1ccfa8500bc57407771170ba1cace0d31fcb16ce2a9d1  tripi-0.17.5-i686-pc-linux-gnu-debug.tar.gz
+    e5a0b8fe71d22c338abd544b91fdf80eb6a8bdce2f20b64c4f53c96f6cebe4ba  tripi-0.17.5-i686-pc-linux-gnu.tar.gz
+    39c9a428f801d1814ccf7d59480ebafc5121baf3d2a78211a2fb9fccee7f0370  tripi-0.17.5-x86_64-linux-gnu-debug.tar.gz
+    1c578a57e82b5b09711a6b7f81fbeaddd4db765588de4f0b7cc9cacee884674d  tripi-0.17.5-x86_64-linux-gnu.tar.gz
 - in_manifest: |-
     899268e5935ed761312fef66bcd6276a358ed8ff31c4babc25892cab9a9d46fb  tripi-linux-0.17-desc.yml
-    git:f1804dadb9458375b18282e69958833f85504bc1 tripigit:25783463db5078c2bf888dd65df53f0d6f008b67 cpp-eth-tripi
+    git:59df340345f14023e8c35be4826d762674012674 tripigit:25783463db5078c2bf888dd65df53f0d6f008b67 cpp-eth-tripi
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -25,7 +25,7 @@
       e0ede96ea0974a44ff86aea647167cd9cbcef4b985ee9f7e59be4bea64927581  base-files_10.1ubuntu2.4_amd64.deb
       81d5fa6a8c31b739299552338ee1d1a7efe4b302702d157f3b67389bc1a948aa  base-files_10.1ubuntu2_amd64.deb
       6910f5a7f6fa9ba8eb98e3925abba9709bd28cf6f368955e536119ad39e9ad94  base-passwd_3.5.44_amd64.deb
-      6b452d96664b0d1d4271059e56cfb5b92815ad97a9d5c9d329272f4a7dddf5ef  bash_4.4.18-2ubuntu1.1_amd64.deb
+      4f95ed6e11435fccaa9731eaeb7688fed8cc1fd8a25d44640e2f7a25f871ae08  bash_4.4.18-2ubuntu1.2_amd64.deb
       5895e980d1fc874906d27823ab31eeb65cfe1d059936b9d6d304bfee02c8995c  bash_4.4.18-2ubuntu1_amd64.deb
       f3e5523331c96e3240d6fbfa6ceb18de50fc8e412e47d83da76421754054d015  binutils-aarch64-linux-gnu_2.30-21ubuntu1~18.04.2_amd64.deb
       38c5f4cc6a47bb825aec205d49bde129e9fa02256c9db46e0e4ba9dca8fa7bc9  binutils-arm-linux-gnueabihf_2.30-21ubuntu1~18.04.2_amd64.deb
@@ -75,6 +75,7 @@
       4a2f0f62cb9c7bc00d535e85f5629eb9f513e9c6161474a95445db1c446b5dc1  diffutils_1%3a3.6-1_amd64.deb
       50dff75c3281b0b7bd58332ca4fc1688588f904f0238d4a3d66c954f160a960f  distro-info-data_0.37_all.deb
       277be9837a88dcdd08efc7ae261554bf46824c23e9af85cef0c21cde41834114  distro-info-data_0.37ubuntu0.5_all.deb
+      8f294be857f3e78f5f17d89e1f244a50e8dfbdd8ffe79aa8b269d80a258d492e  dmsetup_2%3a1.02.145-4.1ubuntu3.18.04.1_amd64.deb
       9d30ebcba80d27fc8b94aae4f71a8b32623897f3a31da9c0fcf08e3da561ebf3  dmsetup_2%3a1.02.145-4.1ubuntu3_amd64.deb
       8fd022350824ff41edf0ec0b5c2fbf333da1ed6eca8a625db8a044762956351a  dnsmasq-base_2.79-1_amd64.deb
       11a5806afe247bb8d756e3d43245d89b213df79653a43a19189bed626bb946c5  dpkg-dev_1.19.0.5ubuntu2.1_all.deb
@@ -230,6 +231,7 @@
       5f3333496edb1cfc2d9236cc7a2035ce08fed99c40d4a121b120077029c2781e  libdbus-1-3_1.12.2-1ubuntu1.1_amd64.deb
       a87d9e4af516cfc6ce04957d291a36347863939b4a61cbe4f16f1235d7b31b72  libdbus-1-3_1.12.2-1ubuntu1_amd64.deb
       7a3e3979966479aa108ff5ef991d00a080a37ea79822276c2ec1b6d5bf522333  libdebconfclient0_0.213ubuntu1_amd64.deb
+      ae6c5fe59de49a53aef35bb307e1e385a9e003f226ca16c280c430b79e5fa198  libdevmapper1.02.1_2%3a1.02.145-4.1ubuntu3.18.04.1_amd64.deb
       6ba9c0edd44421480af99ca8115d08197a541d9ac5e0c031cc650b5960d6bbd8  libdevmapper1.02.1_2%3a1.02.145-4.1ubuntu3_amd64.deb
       93cc71d5bc239e6cb07b27b9a61326a09742483e34efc46d164ff58598da9be0  libdns-export1100_1%3a9.11.3+dfsg-1ubuntu1.8_amd64.deb
       0b0ff4da4f97526452e443e3eba779116813a7135a0face6713dd4536fae0892  libdns-export1100_1%3a9.11.3+dfsg-1ubuntu1_amd64.deb
@@ -265,9 +267,9 @@
       d12d02c0d237e2ff766c02e31f4779a455c81d9f7a8ebbc7a083cc2d77d5cf13  libgdbm5_1.14.1-6_amd64.deb
       5ebe2f31f36042bec9c390e8e890b24a3a1f21ec1b2f70eabee62c3bf63fd511  libgirepository-1.0-1_1.56.1-1_amd64.deb
       eb1df17e88a067c9fb4fc61c72decb9120ce11cb61b6ebbacd837cf24d7293e4  libglib2.0-0_2.56.1-2ubuntu1_amd64.deb
-      b8cc78c8e9f349bad881153ac235d8d65518ebaa1982dc52531551ffee077094  libglib2.0-0_2.56.4-0ubuntu0.18.04.3_amd64.deb
+      a3924ee2d69c41599ee4e14c1ae9421ee5c7a736238f7308a0cc22633c0d1538  libglib2.0-0_2.56.4-0ubuntu0.18.04.4_amd64.deb
       95c46d4540b666679715696d597d026c454455251cc4fa294dfbfb8071848b15  libglib2.0-data_2.56.1-2ubuntu1_all.deb
-      e89948a8302167cff070dd0cf1b77d86f4462c817d12aa3576874483fe83582e  libglib2.0-data_2.56.4-0ubuntu0.18.04.3_all.deb
+      90e542d44bc40377a898976f0f822bcc283d041a8f6306c938d3bfa345811261  libglib2.0-data_2.56.4-0ubuntu0.18.04.4_all.deb
       77066044de14fbcc4f2326348e24dda33e1106295e9c44748bb457ecd132b823  libgmp-dev_2%3a6.1.2+dfsg-2_amd64.deb
       5b4ea4fdbc5cf9b2eb9ce7b05de58a36b507982d9fa8c84765d41279e4645be1  libgmp10_2%3a6.1.2+dfsg-2_amd64.deb
       612ab92cdf2aef4591c3a36e1656e3af9a3fe056989e2ac22e5482017208f736  libgmpxx4ldbl_2%3a6.1.2+dfsg-2_amd64.deb
