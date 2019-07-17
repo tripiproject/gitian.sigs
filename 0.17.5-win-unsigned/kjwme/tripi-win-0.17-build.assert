@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
     902b47458fd11e87cdfb38648a540de30bd344a1be53f448f6931d4486c5de3a  src/tripi-0.17.5.tar.gz
-    83b92bd87c4b16f42d9ea48cd56419602ef24e95bef6c66daa2e965665f30418  tripi-0.17.5-win-unsigned.tar.gz
+    3ac5d2d46f6740e47d4f8614e53bd03532e64d196e16da1129c8e863ccc397e7  tripi-0.17.5-win-unsigned.tar.gz
     bc53321ce6116524b48e5e0c39fabc73897d5e4c56dc2cca2d73722c9cbe86ed  tripi-0.17.5-win32-debug.zip
-    697f12782a68aaf44b5745e03dbe9be917805a9518dd6978443116bd4ce9a941  tripi-0.17.5-win32-setup-unsigned.exe
-    bb097d27980b574cb1adc68daab0d75cfe8a03f5a97a922fada5462404f25478  tripi-0.17.5-win32.zip
+    10bc027484ad77068390c3c1b43d76c2d5e5fae883e2d35736cefd89324c3fef  tripi-0.17.5-win32-setup-unsigned.exe
+    d811f90760b57cb1636e64ef43ed3a35c5fc7d3d8f6e75b7aa62291045026536  tripi-0.17.5-win32.zip
     67a935a46fc536fa6047a58a5ff81c8bb3ccb76c58f288c43b100b7160d13d93  tripi-0.17.5-win64-debug.zip
-    d1503afcbcd35d3b0363237cca50fc4aa9de9c2767664ce2b100b7ff71607863  tripi-0.17.5-win64-setup-unsigned.exe
-    634d60457f70f8613fe5574a1d8ea0d75af643cc81d059ecc17a5d2777e51acb  tripi-0.17.5-win64.zip
+    22c437e546f13875dd27ffa950aecc640236e558622196ec4127d832ca344316  tripi-0.17.5-win64-setup-unsigned.exe
+    8376edc1b8f1907d46efe3a0b6c17a7d49c4ba1c182bbd3f7b6d481c74ccc80e  tripi-0.17.5-win64.zip
 - in_manifest: |-
     72f638fe60809aac9d758b716b00a26dd2fc16048a07f65b0bf5f700b79e8e11  tripi-win-0.17-desc.yml
     git:59df340345f14023e8c35be4826d762674012674 tripigit:25783463db5078c2bf888dd65df53f0d6f008b67 cpp-eth-tripi
