@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
     902b47458fd11e87cdfb38648a540de30bd344a1be53f448f6931d4486c5de3a  src/tripi-0.17.5.tar.gz
-    3ac5d2d46f6740e47d4f8614e53bd03532e64d196e16da1129c8e863ccc397e7  tripi-0.17.5-win-unsigned.tar.gz
+    8ead780e9632942c3d373ebbc45bd86337860cc767f5b5d6c151e970ab157c5f  tripi-0.17.5-win-unsigned.tar.gz
     bc53321ce6116524b48e5e0c39fabc73897d5e4c56dc2cca2d73722c9cbe86ed  tripi-0.17.5-win32-debug.zip
-    10bc027484ad77068390c3c1b43d76c2d5e5fae883e2d35736cefd89324c3fef  tripi-0.17.5-win32-setup-unsigned.exe
-    d811f90760b57cb1636e64ef43ed3a35c5fc7d3d8f6e75b7aa62291045026536  tripi-0.17.5-win32.zip
+    42baf365a600b8f170851fd99d3defe84da3a68140b06ec038350b578c59c398  tripi-0.17.5-win32-setup-unsigned.exe
+    378fba50161feabb7440f76d0925b1dd2af9cf69c261264b1422f3d7250cd6f7  tripi-0.17.5-win32.zip
     67a935a46fc536fa6047a58a5ff81c8bb3ccb76c58f288c43b100b7160d13d93  tripi-0.17.5-win64-debug.zip
-    22c437e546f13875dd27ffa950aecc640236e558622196ec4127d832ca344316  tripi-0.17.5-win64-setup-unsigned.exe
-    8376edc1b8f1907d46efe3a0b6c17a7d49c4ba1c182bbd3f7b6d481c74ccc80e  tripi-0.17.5-win64.zip
+    e95eca0911979668235fd47a64e51d9b42d8141210e760ee2762fb54408555a1  tripi-0.17.5-win64-setup-unsigned.exe
+    8a0c94483da04cae675c44b6c24a9989b2c434501862c0a37df0c6f0af7b4760  tripi-0.17.5-win64.zip
 - in_manifest: |-
     72f638fe60809aac9d758b716b00a26dd2fc16048a07f65b0bf5f700b79e8e11  tripi-win-0.17-desc.yml
     git:59df340345f14023e8c35be4826d762674012674 tripigit:25783463db5078c2bf888dd65df53f0d6f008b67 cpp-eth-tripi
@@ -21,7 +21,7 @@
       a909ad8b2e97f45960a05458140cff737df30bf7c616778a5a0ca74b9d012d93  autoconf_2.69-11_all.deb
       d25ff344a7b808ef3ef8a3717cdad8f589ad20b57ea954054e9cc016fe7dff01  automake_1%3a1.15.1-3ubuntu2_all.deb
       716a1922077df772dcd8d4e462e1c5a9570c48871cbee062c23ae348b3a08fa1  autotools-dev_20180224.1_all.deb
-      e0ede96ea0974a44ff86aea647167cd9cbcef4b985ee9f7e59be4bea64927581  base-files_10.1ubuntu2.4_amd64.deb
+      576623960ff96aebe91991b7bb2ef133dc8df99ce64c5333298dc9b51b89d92c  base-files_10.1ubuntu2.5_amd64.deb
       81d5fa6a8c31b739299552338ee1d1a7efe4b302702d157f3b67389bc1a948aa  base-files_10.1ubuntu2_amd64.deb
       6910f5a7f6fa9ba8eb98e3925abba9709bd28cf6f368955e536119ad39e9ad94  base-passwd_3.5.44_amd64.deb
       4f95ed6e11435fccaa9731eaeb7688fed8cc1fd8a25d44640e2f7a25f871ae08  bash_4.4.18-2ubuntu1.2_amd64.deb
@@ -124,6 +124,7 @@
       dffa3066d361d48f5c791609aa7026e98a7868f5c21cfd2c2139f0ad9c4b7908  iproute2_4.15.0-2ubuntu1_amd64.deb
       8f3d5fc01ac860d0e63af7342d567c9b9aa387ed3cb0a04797467e119c2a855e  iptables_1.6.1-2ubuntu2_amd64.deb
       48d28c9b1ee2e531464053a4e97ed6ac7b58a691f9d280d554d35465ed80db05  iputils-ping_3%3a20161105-1ubuntu2_amd64.deb
+      faaf3cf2b74101873fabb565047bf82d5d304f21cc505bf67356738d6332cc61  iputils-ping_3%3a20161105-1ubuntu3_amd64.deb
       a842a1c9aeb0c5b8058052c84399989b9d13e92181f6e073dd2e03ba48d166a8  isc-dhcp-client_4.3.5-3ubuntu7.1_amd64.deb
       1efa17725e80e0c09bff5d40ea2691cb7f8af1b23822e32222fdb84b91e16494  isc-dhcp-client_4.3.5-3ubuntu7_amd64.deb
       44a8073c3b519c72f4d272be9ff0e83317b49b0613ac793cbea6b2b608c4a0c1  isc-dhcp-common_4.3.5-3ubuntu7.1_amd64.deb
